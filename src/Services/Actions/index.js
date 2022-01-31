@@ -11,4 +11,4 @@ const deleteTodo = (id) => ({
     id,
 })
 
-
+export { addTodo, deleteTodo };
