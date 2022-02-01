@@ -16,8 +16,6 @@ const todos = (state = initialState, action) => {
             }
         case 'DELETE_TODO':
             const todos = state.data.filter((todo) => todo.id !== action.id);
-            console.log(state);
-            console.log(action);
             return {
                 ...state,
                 data: todos
