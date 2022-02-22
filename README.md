@@ -1,70 +1,168 @@
-# Getting Started with Create React App
+# React-Native-Ecommerce
+A boilerplate for a ecommerce mobile app using React Native and Redux.
+IOs and Android
+## Features🔥
+- Login 
+- Signup
+- Social Login
+- Recover Account
+- Cart (List)
+- Add To Cart
+- Remove Cart
+- Category
+- Best Selling
+- Payment Processor (RazorPay)
+- Profile
+- Filters
+- Product Review (Listing)
+- Write Product Review
+- Multiple Shipping address
+- Order History
+- Wish List (With Redux)
+- Google Ads (Replace your app id in : AndroidManifest.xml and info.plist) 
+- Search (Coming soon) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## YouTube
+- [Subscribe](https://www.youtube.com/channel/UCtyZ9z0ulUQsyP-wLrNyJ4A) `Subscribe for more`
+## Instagram
+- [Follow](https://www.instagram.com/amu.dev/) `Follow on IG`
 
-## Available Scripts
+## Web
+- [Amusoftech](https://amusoftech.xyz/) `Visit us`
 
-In the project directory, you can run:
+## Buy me a coffee
+<a href="https://www.buymeacoffee.com/amusoftech" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-### `npm start`
+## ❤️ Support us
+- `Donate (Eth) : 021A827e911350a7133ac494F3D7D2281e0B75F9` 
+## Screens Recording
+![Video](/screens-shots/video_.gif?raw=true "Run time Video")
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Requirements
+- [Node](https://nodejs.org) `6.x` or newer
+- [React Native](http://facebook.github.io/react-native/docs/getting-started.html) for development
+- [Xcode](https://developer.apple.com/xcode/) for iOS development
+- [Android Studio](https://developer.android.com/studio/index.html) for Android development
+- [Android SDK](https://developer.android.com/sdk/) `23.0.1` or newer for Android development
+- [Android Marshmallow](https://www.android.com/versions/marshmallow-6-0/) or newer on your Android device to test properly
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+See [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) to install requirement tools.
 
-### `npm test`
+## Stack
+- [React JS](https://reactjs.org/) is a JavaScript library
+- [React Native](https://facebook.github.io/react-native/) `0.63.2` for building native apps using react
+- [Redux](https://redux.js.org) `4.0.5` a predictable state container for Javascript apps
+- [Redux-persist](https://github.com/rt2zz/redux-persist) `6.0.0` Persist and rehydrate a redux store. Javascript apps
+- [Alert](https://github.com/testshallpass/react-native-dropdownalert) `4.3.0` An alert to notify users 
+- [Babel](http://babeljs.io/) `7.2.3` for ES6+ support
+- [Bottom-Tabs](https://github.com/react-navigation/react-navigation) `5.11.11` for Bottom Navigations 
+- [Navigation for React Native](https://reactnavigation.org/) a router based on new React Native Navigation API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Libraries
+ - [@react-native-community/masked-view](https://github.com/react-native-community/react-native-masked-view) `0.1.10`
+ - [@react-navigation/native](https://github.com/react-navigation/react-navigation) `5.7.3`
+ - [@react-navigation/stack](https://github.com/react-navigation/react-navigation) `5.9.0`
+ - [Bottom-Tabs](https://github.com/react-navigation/react-navigation) `5.11.11` 
+ - [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler) `1.7.0`
+ - [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated) `1.13.0`
+ - [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context) `3.1.7`
+ - [react-native-screens](https://github.com/software-mansion/react-native-screens) `2.10.1`
+ - [react-redux](https://react-redux.js.org/) `7.2.1`
+ - [redux](https://redux.js.org/) `4.0.5`
+ - [redux-saga](https://redux-saga.js.org/) `1.1.3`
+ - [Alert](https://github.com/testshallpass/react-native-dropdownalert) `4.3.0` 
+ - [Redux-persist](https://github.com/rt2zz/redux-persist) `6.0.0`
+ - [Touch-ripple](https://github.com/noddy1996/react-native-touch-ripple) `0.0.0`
+ 
+## Get Started
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 1. Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+On the command prompt run the following commands
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+$ git clone https://github.com/eramudeep/react-native-ecommerce.git
 
-### `npm run eject`
+$ cd react-native-redux-starter/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+$ npm install
+```
+#### 2. Simulate for iOS
+```sh
+$ cd ios && pod install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Method One**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*	Open the project in Xcode from **ios/react_native_redux_starter.xcodeproj**.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*	Hit the play button.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Method Two**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+*	Run the following command in your terminal.
 
-### Code Splitting
+```sh
+$ react-native run-ios
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 3. Simulate for Android
 
-### Analyzing the Bundle Size
+*	Make sure you have an **Android emulator** installed and running.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*	Run the following command in your terminal.
 
-### Making a Progressive Web App
+```sh
+$ react-native run-android
+```
+#### 4. How to Decide the Navigation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+*	Navigation is decided By  **navigationTypeTabs** Key definend in [app.json](./app.json).
+*	**navigationTypeTabs** :  true, will give you the bottom Tabs and vice versa.
+## Debugger
+- [React Native Debugger](https://github.com/jhen0409/react-native-debugger) : The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools
+- [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) `2.13.5`
 
-### Advanced Configuration
+## Rename Project
+Rename react-native app with just one command
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![react-native-rename](https://cloud.githubusercontent.com/assets/5106887/24444940/cbcb0a58-149a-11e7-9714-2c7bf5254b0d.gif)
 
-### Deployment
+> This package assumes that you created your react-native project using `react-native init`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### Installation
+```
+yarn global add react-native-rename
+or
+npm install react-native-rename -g
+```
 
-### `npm run build` fails to minify
+Switch to new branch first
+>better to have back-up
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+git checkout -b rename-app
+```
+
+#### Usage
+```
+react-native-rename <newName>
+```
+
+> With custom Bundle Identifier (Android)
+```
+react-native-rename <newName> -b <bundleIdentifier>
+```
+
+#### Example
+```
+react-native-rename "Travel App"
+```
+> With custom Bundle Identifier
+```
+react-native-rename "Travel App" -b com.junedomingo.travelapp
+```
+
+
