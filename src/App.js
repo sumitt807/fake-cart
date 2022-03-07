@@ -10,7 +10,6 @@ function App() {
   const goalList = [
     { id: "cg1", text: "Hello" },
     { id: "cg2", text: "Test" },
-    { id: "cg2", text: "Hello" },
     { id: "cg3", text: "Hello" },
   ];
   return (
