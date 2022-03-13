@@ -3,11 +3,8 @@ import AddGoalList from './AddGoalList';
 import './GoalList.css';
 
 const GoalList = props => {
-    // goalList[currentGoalList, setGoalList] = useState([
-    //     { id: "cg1", text: "Hello" },
-    //     { id: "cg2", text: "Test" },
-    //     { id: "cg3", text: "Hello" },
-    // ])
+
+
     const addGoalHandler = (newGoal) => {
         props.items.push({
             id: Math.random().toString(),
