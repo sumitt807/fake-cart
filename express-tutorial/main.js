@@ -1,8 +1,9 @@
 const express = require("express");
 const app = express();
 
-app.get('/test', function (req, res) {
+app.get('/', function (req, res) {
     res.send("hello this is testing");
 });
 
-app.listen(3000, "sumit.com");  
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log('Listening on port ' + PORT));  
