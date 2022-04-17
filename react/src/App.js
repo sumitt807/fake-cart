@@ -1,21 +1,28 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import About from "./pages/About";
+import BlogList from "./pages/BlogList";
+import ContactUs from "./pages/ContactUs";
+import Home from "./pages/Home";
+import NoPage from "./pages/NoPage";
+import Products from "./pages/Products";
+import Testimonial from "./pages/Testimonial";
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './App.scss';
-// import Home from "./pages/Home";
-
-import GoalList from "./components/GoalList/GoalList";
 
 function App() {
-  const goalList = [
-    { id: "cg1", text: "Hello" },
-    { id: "cg2", text: "Test" },
-    { id: "cg3", text: "Hello" },
-  ];
+
   return (
-    <div className="App">
-      <GoalList items={goalList} />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/testimonial" element={<Testimonial />} />
+        <Route path="/blog-list" element={<BlogList />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -9,7 +9,7 @@ const Footer = () => {
                         <div class="col-md-4">
                             <div class="full">
                                 <div class="logo_footer">
-                                    <a href="#"><img width="210" src="images/logo.png" alt="#" /></a>
+                                    <a href="/"><img width="210" src="images/logo.png" alt="#" /></a>
                                 </div>
                                 <div class="information_f">
                                     <p><strong>ADDRESS:</strong> 28 White tower, Street Name New York City, USA</p>
@@ -26,12 +26,11 @@ const Footer = () => {
                                             <div class="widget_menu">
                                                 <h3>Menu</h3>
                                                 <ul>
-                                                    <li><a href="#">Home</a></li>
-                                                    <li><a href="#">About</a></li>
-                                                    <li><a href="#">Services</a></li>
-                                                    <li><a href="#">Testimonial</a></li>
-                                                    <li><a href="#">Blog</a></li>
-                                                    <li><a href="#">Contact</a></li>
+                                                    <li><a href="/">Home</a></li>
+                                                    <li><a href="/about">About</a></li>
+                                                    <li><a href="/testimonial">Testimonial</a></li>
+                                                    <li><a href="/blog-list">Blog</a></li>
+                                                    <li><a href="/contact-list">Contact</a></li>
                                                 </ul>
                                             </div>
                                         </div>
