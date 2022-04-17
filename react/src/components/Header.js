@@ -3,42 +3,42 @@ import React from 'react'
 const Header = () => {
     return (
         <div>
-            <header class="header_section">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg custom_nav-container ">
-                        <a class="navbar-brand" href="/"><img width="250" src="images/logo.png" alt="#" /></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class=""> </span>
+            <header className="header_section">
+                <div className="container">
+                    <nav className="navbar navbar-expand-lg custom_nav-container ">
+                        <a className="navbar-brand" href="/"><img width="250" src="images/logo.png" alt="#" /></a>
+                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className=""> </span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul className="navbar-nav">
+                                <li className="nav-item active">
+                                    <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Pages <span class="caret"></span></span></a>
-                                    <ul class="dropdown-menu">
+                                <li className="nav-item dropdown">
+                                    <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span className="nav-label">Pages <span className="caret"></span></span></a>
+                                    <ul className="dropdown-menu">
                                         <li><a href="/about">About</a></li>
                                         <li><a href="/testimonial">Testimonial</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/product">Products</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/products">Products</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/blog-list">Blog</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/blog-list">Blog</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/contact-us">Contact</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/contact-us">Contact</a>
                                 </li>
-                                <li class="nav-item">
-                                    <button class="btn  my-2 my-sm-0 nav_search-btn" href='#'>
-                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                <li className="nav-item">
+                                    <button className="btn  my-2 my-sm-0 nav_search-btn" href='#'>
+                                        <i className="fa fa-shopping-cart" aria-hidden="true"></i>
                                     </button>
                                 </li>
-                                <form class="form-inline">
-                                    <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                <form className="form-inline">
+                                    <button className="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                                        <i className="fa fa-search" aria-hidden="true"></i>
                                     </button>
                                 </form>
                             </ul>

@@ -12,18 +12,21 @@ import Testimonial from "./pages/Testimonial";
 function App() {
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/testimonial" element={<Testimonial />} />
-        <Route path="/blog-list" element={<BlogList />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="*" element={<NoPage />} />
-      </Routes>
-    </BrowserRouter>
+    <Products />
   );
 }
 
 export default App;
+
+
+{/* <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/testimonial" element={<Testimonial />} />
+    <Route path="/blog-list" element={<BlogList />} />
+    <Route path="/products" element={<Products />} />
+    <Route path="/contact-us" element={<ContactUs />} />
+    <Route path="*" element={<NoPage />} />
+  </Routes>
+</BrowserRouter> */}
